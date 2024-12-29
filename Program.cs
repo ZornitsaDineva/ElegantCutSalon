@@ -1,14 +1,23 @@
-using Microsoft.AspNetCore.Mvc;
-using ElegantCutSalon.Models;
-using Microsoft.AspNetCore.Antiforgery;
+using ElegantCutSalon.Controllers;
+using ElegantCutSalon.Database;
+
 namespace ElegantCutSalon
 {
     public class Program
     {
+        private static readonly string connectionString = "Server=(localdb)\\mssqllocaldb;Database=ElegantCutSalonMin;Trusted_Connection=True;";
+
+
         public static void Main(string[] args)
         {
+            // dotnet add package <PACKAGE_NAME> 
+
+
+
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddAuthorization();
+            builder.Services.AddScoped<DatabaseManager>
+                (s => new DatabaseManager(connectionString));
 
 
             var app = builder.Build();
@@ -16,45 +25,11 @@ namespace ElegantCutSalon
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.UseStaticFiles();
+            
+            new AdminController(app);
 
-            app.MapGet("/", (HttpContext httpContext) => {
-                return Results.Content("""
-                    <h1> Register Staff </h1>
-                    <form action="/staff" method="post">
-                        
-                        <lable>Name</lable>
-                        <input type="text" name="Name" placeholder="Name" required>
+           
 
-                    <lable>Title</lable>
-                        <input type="text" name="Title" placeholder="Title" required>
-
-                    <lable>Description</lable>
-                        <input type="text" name="Description" placeholder="Description" required>
-
-                    <lable>Email</lable>
-                        <input type="email" name="Email" placeholder="Email" required>
-
-                    <lable>Role</lable>
-                        <input type="text" name="Role" placeholder="Role" required>
-
-                    <lable>Password</lable>
-                        <input type="password" name="Password" placeholder="Password" required>
-
-                        <input type="submit" value="Submit" />
-
-                    </form>
-                    """, "text/html");
-            });
-
-            app.MapPost("/staff", (HttpContext httpContext, [FromForm] StaffModel s) =>
-            {
-                Console.WriteLine(s.Name);
-                Console.WriteLine(s.Title);
-                Console.WriteLine(s.Description);
-                Console.WriteLine(s.Role);
-                Console.WriteLine(s.Email);
-                Console.WriteLine(s.Password);
-            }).DisableAntiforgery();
 
             app.Run();
         }

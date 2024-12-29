@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\Zornitsa Dineva\\ElegantCutSalonMin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6489AAC3-B4F9-45DD-9212-5C30A4D5105E}|ElegantCutSalonMin.csproj|c:\\users\\user\\downloads\\zornitsa dineva\\elegantcutsalonmin\\views\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6489AAC3-B4F9-45DD-9212-5C30A4D5105E}|ElegantCutSalonMin.csproj|solutionrelative:views\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6489AAC3-B4F9-45DD-9212-5C30A4D5105E}|ElegantCutSalonMin.csproj|c:\\users\\user\\downloads\\zornitsa dineva\\elegantcutsalonmin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6489AAC3-B4F9-45DD-9212-5C30A4D5105E}|ElegantCutSalonMin.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6489AAC3-B4F9-45DD-9212-5C30A4D5105E}|ElegantCutSalonMin.csproj|c:\\users\\user\\downloads\\zornitsa dineva\\elegantcutsalonmin\\database\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6489AAC3-B4F9-45DD-9212-5C30A4D5105E}|ElegantCutSalonMin.csproj|solutionrelative:database\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6489AAC3-B4F9-45DD-9212-5C30A4D5105E}|ElegantCutSalonMin.csproj|c:\\users\\user\\downloads\\zornitsa dineva\\elegantcutsalonmin\\models\\staffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6489AAC3-B4F9-45DD-9212-5C30A4D5105E}|ElegantCutSalonMin.csproj|solutionrelative:models\\staffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6489AAC3-B4F9-45DD-9212-5C30A4D5105E}|ElegantCutSalon.csproj|c:\\users\\user\\downloads\\zornitsa dineva\\elegantcutsalonmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6489AAC3-B4F9-45DD-9212-5C30A4D5105E}|ElegantCutSalon.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Zornitsa Dineva\\ElegantCutSalonMin\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Zornitsa Dineva\\ElegantCutSalonMin\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T10:36:22.769Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "register.html",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Zornitsa Dineva\\ElegantCutSalonMin\\Views\\register.html",
+              "RelativeDocumentMoniker": "Views\\register.html",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Zornitsa Dineva\\ElegantCutSalonMin\\Views\\register.html",
+              "RelativeToolTip": "Views\\register.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-29T18:29:11.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaffModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Zornitsa Dineva\\ElegantCutSalonMin\\Models\\StaffModel.cs",
+              "RelativeDocumentMoniker": "Models\\StaffModel.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Zornitsa Dineva\\ElegantCutSalonMin\\Models\\StaffModel.cs",
+              "RelativeToolTip": "Models\\StaffModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:15:04.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Zornitsa Dineva\\ElegantCutSalonMin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Zornitsa Dineva\\ElegantCutSalonMin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvyAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:05:12.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Zornitsa Dineva\\ElegantCutSalonMin\\Database\\DatabaseManager.cs",
+              "RelativeDocumentMoniker": "Database\\DatabaseManager.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Zornitsa Dineva\\ElegantCutSalonMin\\Database\\DatabaseManager.cs",
+              "RelativeToolTip": "Database\\DatabaseManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:44:06.731Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
